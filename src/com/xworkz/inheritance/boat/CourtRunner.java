@@ -18,6 +18,7 @@ public class CourtRunner {
 		Court court = new SupremeCourt();
 		System.out.println(court.name);
 		System.out.println(court.noStaffs);
+		//if(SupremeCourt !=court) {
 		SupremeCourt court2 = (SupremeCourt) court; // type casting
 		System.out.println(court2.judgeName);
 		System.out.println(court2.location);
