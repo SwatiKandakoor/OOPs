@@ -12,7 +12,7 @@ public class Moon extends Satellite {
 
 	public Moon(int distance, String brightness, String color) {
 		super(distance, brightness);
-		this.color = "White";
+		this.color = "red";
 
 	}
 
